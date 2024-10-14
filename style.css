@@ -97,3 +97,27 @@ footer > p {
   font-weight: 400;
   font-style: normal;
 }
+
+
+/* logos */
+
+#logos {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  /* text-decoration: none; */
+}
+
+#logos  object {
+  width: 30px;
+  height: auto;
+
+}
+
+/* #activitypub {
+  box-shadow: 0 0 10px #F1007E99;
+}
+
+#bluesky {
+  box-shadow: 0 0 10px #0285FF99;
+} */
