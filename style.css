@@ -18,6 +18,15 @@ body {
   padding: 10px;
 }
 
+/* アニメーション */
+@keyframes imageBlur {
+  from {
+    filter: blur(0px)
+  }
+  to {
+    filter: blur(10px);
+  }
+}
 
 /* 背景画像 */
 #background {
@@ -44,7 +53,6 @@ body {
   background-size: inherit;
   background-position: inherit;
   background-repeat: inherit;
-  /* filter: blur(10px); */
   animation: imageBlur 5s .2s forwards alternate ease-in;
 }
 
@@ -115,12 +123,17 @@ body {
   transition: transform 0.3s linear;
 }
 
+#accounts a:hover {
+  transform: scale(1.05);
+}
+
 #accounts object {
   width: 35px;
   height: 100%;
   pointer-events: none;
 }
 
+/* 各種アイコン */
 #activityPub {
   background: radial-gradient(circle closest-side at center, rgba(241, 0, 126, 1) 30%, rgba(241, 0, 126, 0.2) 90%, rgba(0, 0, 0, 0));
   border-radius: 50%;
@@ -146,7 +159,6 @@ footer {
 }
 
 footer p {
-  /* position: relative; */
   background-color: rgba(0, 110, 84, 1);
 }
 
@@ -161,20 +173,4 @@ footer p {
   font-family: "Ubuntu Mono", monospace;
   font-weight: 400;
   font-style: normal;
-}
-
-
-/* アニメーション定義 */
-@keyframes imageBlur {
-  from {
-    filter: blur(0px)
-  }
-  to {
-    filter: blur(10px);
-  }
-}
-
-
-#accounts a:hover {
-  transform: scale(1.05);
 }
