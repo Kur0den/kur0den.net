@@ -2,17 +2,24 @@
 
 
 /* デバッグ用 */
-* {
-  outline: 1px solid red; /* 全要素に赤い境界線を表示 */
-}
+/* 全要素に赤い境界線を表示 */
+/* * {
+  outline: 1px solid red;
+} */
 
+/* 全体 */
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
 
+.text {
+  padding: 10px;
+}
 
+
+/* 背景画像 */
 #background {
   position: fixed;
   top: 0;
@@ -41,6 +48,7 @@ body {
 }
 
 
+/* メインコンテンツ */
 #main {
 
   display: flex;
@@ -58,26 +66,16 @@ body {
   max-height: 50vh; /* 必要に応じて高さを調整 */
   max-width: 50vw;
   margin: 10px;
-  padding: 10px 50px;
   border-radius: 10px;
-
+  padding: 10px 20px;
   background-color: #f4dda5  ;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 
-/* #name {
-
-}
-
-#accounts {
-
-} */
-
-
-
-.text {
-  padding: 10px;
+/* name */
+#name {
+  min-width: 300px;
 }
 
 h1 {
@@ -94,33 +92,44 @@ p {
 }
 
 
-
-
-/* logos */
-
-#logos {
+/* accounts */
+#accounts {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
-  /* text-decoration: none; */
+
+  text-decoration: none;
+
+  max-width: 30vw;
+  min-width: 260px;
 }
 
-#logos a {
-  height: 30px
+#accounts a {
+  height: 35px;
+  padding: 15px;
 }
 
-#logos  object {
-  width: 30px;
+#accounts  object {
+  width: 35px;
   height: 100%;
 }
 
-/* #activitypub {
-  box-shadow: 0 0 10px #F1007E99;
+#activityPub {
+  background: radial-gradient(circle closest-side at center, rgba(241, 0, 126, 1) 30%, rgba(241, 0, 126, 0.2) 90%, rgba(0, 0, 0, 0));
+  border-radius: 50%;
 }
 
 #bluesky {
-  box-shadow: 0 0 10px #0285FF99;
-} */
+  background: radial-gradient(circle closest-side at center, rgba(2, 133, 255, 1) 30%, rgba(2, 133, 255, 0.2) 90%, rgba(0, 0, 0, 0));
+  border-radius: 50%;
+}
+
+#gitHub {
+  background: radial-gradient(circle closest-side at center, rgba(24, 23, 23, 1) 30%, rgba(24, 23, 23, 0.2) 90%, rgba(0, 0, 0, 0));
+  border-radius: 50%;
+}
 
 
 /* footer */
