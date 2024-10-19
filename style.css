@@ -93,11 +93,7 @@ p {
   font-style: normal;
 }
 
-footer > p {
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
+
 
 
 /* logos */
@@ -146,4 +142,10 @@ footer::before {
   flex: 1;
   background: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgba(0, 110, 84, 0.5) 80%, rgba(0, 110, 84, 1) 90%);
   padding: 10px;
+}
+
+footer > p {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
