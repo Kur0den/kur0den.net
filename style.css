@@ -75,26 +75,6 @@ body {
 } */
 
 
-footer {
-  display: flex;
-  justify-content: flex-end;
-  text-align: right;
-  color: #fff;
-}
-
-footer > p {
-  /* position: relative; */
-  background-color: rgba(0, 110, 84, 1);
-  padding: 10px;
-}
-
-footer::before {
-  content: '';
-  flex: 1;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgba(0, 110, 84, 0.5) 80%, rgba(0, 110, 84, 1) 90%);
-  padding: 10px;
-}
-
 
 .text {
   padding: 10px;
@@ -145,3 +125,25 @@ footer > p {
 #bluesky {
   box-shadow: 0 0 10px #0285FF99;
 } */
+
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  color: #fff;
+}
+
+footer > p {
+  /* position: relative; */
+  background-color: rgba(0, 110, 84, 1);
+  padding: 10px;
+}
+
+footer::before {
+  content: '';
+  flex: 1;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgba(0, 110, 84, 0.5) 80%, rgba(0, 110, 84, 1) 90%);
+  padding: 10px;
+}
