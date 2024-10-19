@@ -50,7 +50,6 @@ body {
 
 /* メインコンテンツ */
 #main {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,14 +77,14 @@ body {
   min-width: 300px;
 }
 
-h1 {
+#name h1 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 1.5em;
 }
 
-p {
+#name p {
   font-family: "M PLUS Rounded 1c", serif;
   font-weight: 400;
   font-style: normal;
@@ -140,10 +139,9 @@ footer {
   color: #fff;
 }
 
-footer > p {
+footer p {
   /* position: relative; */
   background-color: rgba(0, 110, 84, 1);
-  padding: 10px;
 }
 
 footer::before {
@@ -153,7 +151,7 @@ footer::before {
   padding: 10px;
 }
 
-footer > p {
+footer p {
   font-family: "Ubuntu Mono", monospace;
   font-weight: 400;
   font-style: normal;
