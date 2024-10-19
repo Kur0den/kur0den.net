@@ -3,9 +3,9 @@
 
 /* デバッグ用 */
 /* 全要素に赤い境界線を表示 */
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
 
 /* 全体 */
 body {
@@ -44,7 +44,8 @@ body {
   background-size: inherit;
   background-position: inherit;
   background-repeat: inherit;
-  filter: blur(10px);
+  /* filter: blur(10px); */
+  animation: imageBlur 5s .2s forwards alternate ease-in;
 }
 
 
@@ -106,13 +107,18 @@ body {
 }
 
 #accounts a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 35px;
   padding: 15px;
+  transition: transform 0.3s linear;
 }
 
-#accounts  object {
+#accounts object {
   width: 35px;
   height: 100%;
+  pointer-events: none;
 }
 
 #activityPub {
@@ -155,4 +161,20 @@ footer p {
   font-family: "Ubuntu Mono", monospace;
   font-weight: 400;
   font-style: normal;
+}
+
+
+/* アニメーション定義 */
+@keyframes imageBlur {
+  from {
+    filter: blur(0px)
+  }
+  to {
+    filter: blur(10px);
+  }
+}
+
+
+#accounts a:hover {
+  transform: scale(1.05);
 }
