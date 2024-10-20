@@ -76,7 +76,9 @@ body {
   margin: 10px;
   border-radius: 10px;
   padding: 10px 20px;
-  background-color: #f4dda5  ;
+  /* color: #fff; */
+  background-color: #47885e;
+  border: 1px solid #fff;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
@@ -134,7 +136,7 @@ body {
 }
 
 /* 各種アイコン */
-#activityPub {
+/* #activityPub {
   background: radial-gradient(circle closest-side at center, rgba(241, 0, 126, 1) 30%, rgba(241, 0, 126, 0.2) 90%, rgba(0, 0, 0, 0));
   border-radius: 50%;
 }
@@ -147,7 +149,7 @@ body {
 #gitHub {
   background: radial-gradient(circle closest-side at center, rgba(24, 23, 23, 1) 30%, rgba(24, 23, 23, 0.2) 90%, rgba(0, 0, 0, 0));
   border-radius: 50%;
-}
+} */
 
 
 /* footer */
