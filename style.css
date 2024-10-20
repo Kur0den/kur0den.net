@@ -3,9 +3,9 @@
 
 /* デバッグ用 */
 /* 全要素に赤い境界線を表示 */
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
 
 /* 全体 */
 body {
@@ -121,12 +121,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 35px;
-  padding: 15px;
-  transition: transform 0.3s linear;
-}
-
-#accounts a:hover {
-  transform: scale(1.05);
 }
 
 #accounts object {
