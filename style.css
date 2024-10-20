@@ -3,9 +3,9 @@
 
 /* デバッグ用 */
 /* 全要素に赤い境界線を表示 */
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 /* 全体 */
 body {
@@ -127,24 +127,9 @@ body {
   width: 35px;
   height: 100%;
   pointer-events: none;
+  color: #000;
+  transition: color 0.3s ease-in-out;
 }
-
-/* 各種アイコン */
-/* #activityPub {
-  background: radial-gradient(circle closest-side at center, rgba(241, 0, 126, 1) 30%, rgba(241, 0, 126, 0.2) 90%, rgba(0, 0, 0, 0));
-  border-radius: 50%;
-}
-
-#bluesky {
-  background: radial-gradient(circle closest-side at center, rgba(2, 133, 255, 1) 30%, rgba(2, 133, 255, 0.2) 90%, rgba(0, 0, 0, 0));
-  border-radius: 50%;
-}
-
-#gitHub {
-  background: radial-gradient(circle closest-side at center, rgba(24, 23, 23, 1) 30%, rgba(24, 23, 23, 0.2) 90%, rgba(0, 0, 0, 0));
-  border-radius: 50%;
-} */
-
 
 /* footer */
 footer {
