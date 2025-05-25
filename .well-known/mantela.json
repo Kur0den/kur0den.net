@@ -13,8 +13,8 @@
     {
       "name": "Main",
       "extension": "9610",
-      "type": "main",
       "identifier": "KFY064TD",
+      "type": "main",
       "transferTo": [
         "9I3MG595",
         "QX8IV4KK"
@@ -22,41 +22,47 @@
     },
     {
       "name": "Kur0den_Android",
-      "type": "smartphone",
       "extension": "2000",
-      "identifier": "QX8IV4KK"
+      "identifier": "QX8IV4KK",
+      "type": "smartphone"
     },
     {
       "name": "Kur0den_Win-loli",
-      "type": "phone",
       "extension": "2010",
-      "identifier": "DCZ8DTQR"
+      "identifier": "DCZ8DTQR",
+      "type": "phone"
     },
     {
       "name": "1000Hz",
-      "type": "music",
       "extension": "1000",
-      "identifier": "UYHXEJPF"
+      "identifier": "UYHXEJPF",
+      "type": "music"
     },
     {
       "name": "Music",
-      "type": "music",
       "extension": "1001",
-      "identifier": "035PWWBK"
+      "identifier": "035PWWBK",
+      "type": "music"
     },
     {
       "name": "Echo",
-      "type": "music",
       "extension": "1111",
-      "identifier": "WFDQMLNU"
+      "identifier": "WFDQMLNU",
+      "type": "music"
     }
   ],
-    "providers": [
+  "providers": [
     {
       "name": "AmagasakiSHINANO",
       "prefix": "661",
       "identifier": "5752ca4c-c828-4946-a8f3-7f8272206f2d",
       "mantela": "https://da-tenshi.github.io/mantela.json"
+    },
+    {
+      "name": "MikaNeTEL",
+      "prefix": "510",
+      "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+      "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
     }
   ]
 }
