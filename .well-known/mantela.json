@@ -10,35 +10,45 @@
     "identifier": "376299fd-2ab2-4848-aa2c-18aea6f5abef"
   },
   "extensions": [
-        {
-      "name": "Reserved",
+    {
+      "name": "Main",
       "extension": "9610",
-      "type": "reserved",
-      "identifier": "9I3MG595"
+      "type": "main",
+      "identifier": "KFY064TD",
+      "transferTo": [
+        "9I3MG595",
+        "QX8IV4KK"
+      ]
     },
     {
       "name": "Kur0den_Android",
+      "type": "smartphone",
       "extension": "2000",
-      "identifier": "QX8IV4KK",
-      "type": "smartphone"
+      "identifier": "QX8IV4KK"
     },
     {
       "name": "Kur0den_Win-loli",
+      "type": "phone",
       "extension": "2010",
-      "identifier": "DCZ8DTQR",
-      "type": "phone"
+      "identifier": "DCZ8DTQR"
     },
     {
       "name": "1000Hz",
+      "type": "music",
       "extension": "1000",
-      "identifier": "UYHXEJPF",
-      "type": "music"
+      "identifier": "UYHXEJPF"
+    },
+    {
+      "name": "Music",
+      "type": "music",
+      "extension": "1001",
+      "identifier": "035PWWBK"
     },
     {
       "name": "Echo",
+      "type": "music",
       "extension": "1111",
-      "identifier": "WFDQMLNU",
-      "type": "music"
+      "identifier": "WFDQMLNU"
     }
   ],
     "providers": [
