@@ -1,0 +1,45 @@
+{
+  "$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
+  "version": "0.1.0",
+  "aboutMe": {
+    "name": "Kur0den-tel",
+    "preferredPrefix": [
+      "961",
+      "9610"
+    ],
+    "identifier": "376299fd-2ab2-4848-aa2c-18aea6f5abef"
+  },
+  "extensions": [
+        {
+      "name": "Reserved",
+      "extension": "9610",
+      "type": "reserved",
+      "identifier": "9I3MG595"
+    },
+    {
+      "name": "Kur0den_Android",
+      "extension": "2000",
+      "identifier": "QX8IV4KK",
+      "type": "smartphone"
+    },
+    {
+      "name": "Kur0den_Win-loli",
+      "extension": "2010",
+      "identifier": "DCZ8DTQR",
+      "type": "phone"
+    },
+    {
+      "name": "1000Hz",
+      "extension": "1000",
+      "identifier": "UYHXEJPF",
+      "type": "music"
+    },
+    {
+      "name": "Echo",
+      "extension": "1111",
+      "identifier": "WFDQMLNU",
+      "type": "music"
+    }
+  ],
+  "providers": []
+}
