@@ -1,0 +1,17 @@
+{
+  "names" : {
+    "kur0den0010": "b706f6e67b182f805a18066f08ebbfe13ec9eef19a1cac7bb2ff7ec3db9aac96"
+  },
+  "relays": {
+    "b706f6e67b182f805a18066f08ebbfe13ec9eef19a1cac7bb2ff7ec3db9aac96": [
+      "wss://relay.nostr.band",
+      "wss://nos.lol",
+      "wss://relay-jp.nostr.wirednet.jp",
+      "wss://yabu.me",
+      "wss://r.kojira.io",
+      "wss://nrelay-jp.c-stellar.net",
+      "wss://relay.momostr.pink",
+      "wss://relay.damus.io"
+    ]
+  }
+}
