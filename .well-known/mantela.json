@@ -5,6 +5,7 @@
     "name": "Kur0den-tel",
     "preferredPrefix": [
       "961",
+      "0961",
       "9610"
     ],
     "identifier": "376299fd-2ab2-4848-aa2c-18aea6f5abef"
@@ -70,6 +71,12 @@
       "prefix": "510",
       "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
       "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
+    },
+    {
+      "name": "roi-tel",
+      "prefix": "732",
+      "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+      "mantela": "https://roiarise.github.io/mantela.json"
     }
   ]
 }
