@@ -57,6 +57,13 @@
       "extension": "1111",
       "identifier": "WFDQMLNU",
       "type": "music"
+    },
+    {
+      "name": "ari-test",
+      "extension": "3001",
+      "identifier": "LTUPWZPM",
+      "type": "application",
+      "unavailable": true
     }
   ],
   "providers": [
