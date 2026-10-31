@@ -5,6 +5,7 @@
     "name": "Kur0den-tel",
     "preferredPrefix": [
       "961",
+      "0961",
       "9610"
     ]
   },
@@ -64,6 +65,13 @@
       "identifier": "WFDQMLNU",
       "name": "Echo",
       "type": "music"
+    },
+    {
+      "name": "ari-test",
+      "extension": "3001",
+      "identifier": "LTUPWZPM",
+      "type": "application",
+      "unavailable": true
     }
   ],
   "providers": [
@@ -78,6 +86,13 @@
       "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
       "name": "MikaNeTEL",
       "prefix": "510",
+      "unavailable": true
+    },
+    {
+      "identifier": "31e54b78-fdf0-4733-aa6c-60b5a92bb3c0",
+      "mantela": "https://roiarise.github.io/mantela.json"
+      "name": "roi-tel",
+      "prefix": "732",
       "unavailable": true
     }
   ],
