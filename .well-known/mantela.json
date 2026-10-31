@@ -1,75 +1,85 @@
 {
   "$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
-  "version": "0.1.0",
   "aboutMe": {
+    "identifier": "376299fd-2ab2-4848-aa2c-18aea6f5abef",
     "name": "Kur0den-tel",
     "preferredPrefix": [
       "961",
       "9610"
-    ],
-    "identifier": "376299fd-2ab2-4848-aa2c-18aea6f5abef"
+    ]
   },
   "extensions": [
     {
-      "name": "Main",
       "extension": "9610",
       "identifier": "KFY064TD",
-      "type": "main",
+      "name": "Main",
       "transferTo": [
         "QX8IV4KK",
         "DCZ8DTQR",
-        "A9NWCJIL"
-      ]
+        "A9NWCJIL",
+        "84KW61ME"
+      ],
+      "type": "main"
     },
     {
-      "name": "Kur0den_Android",
       "extension": "2000",
+      "identifier": "84KW61ME",
+      "model": "snom 300",
+      "name": "kur0den_snom300",
+      "type": "phone"
+    },
+    {
+      "extension": "2001",
       "identifier": "QX8IV4KK",
+      "name": "Kur0den_Android",
       "type": "smartphone"
     },
     {
-      "name": "Kur0den_Win-loli",
       "extension": "2010",
       "identifier": "DCZ8DTQR",
-      "type": "phone"
+      "name": "Kur0den_Win-loli",
+      "type": "other"
     },
     {
-      "name": "Kur0den_Win-carbon",
       "extension": "2011",
       "identifier": "A9NWCJIL",
-      "type": "phone"
+      "name": "Kur0den_Win-carbon",
+      "type": "other",
+      "unavailable": true
     },
     {
-      "name": "1000Hz",
       "extension": "1000",
       "identifier": "UYHXEJPF",
+      "name": "1000Hz",
       "type": "music"
     },
     {
-      "name": "Music",
       "extension": "1001",
       "identifier": "035PWWBK",
+      "name": "Music",
       "type": "music"
     },
     {
-      "name": "Echo",
       "extension": "1111",
       "identifier": "WFDQMLNU",
+      "name": "Echo",
       "type": "music"
     }
   ],
   "providers": [
     {
-      "name": "AmagasakiSHINANO",
-      "prefix": "661",
       "identifier": "5752ca4c-c828-4946-a8f3-7f8272206f2d",
-      "mantela": "https://da-tenshi.github.io/mantela.json"
+      "mantela": "https://da-tenshi.github.io/mantela.json",
+      "name": "AmagasakiSHINANO",
+      "prefix": "661"
     },
     {
+      "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+      "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
       "name": "MikaNeTEL",
       "prefix": "510",
-      "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
-      "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
+      "unavailable": true
     }
-  ]
+  ],
+  "version": "0.1.0"
 }
