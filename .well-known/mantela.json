@@ -1,7 +1,7 @@
 {
   "$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
   "aboutMe": {
-    "identifier": "376299fd-2ab2-4848-aa2c-18aea6f5abef",
+    "identifier": "ff07d332-2c68-4107-808a-206e64615d4a",
     "name": "Kur0den-tel",
     "preferredPrefix": [
       "961",
@@ -67,9 +67,9 @@
       "type": "music"
     },
     {
-      "name": "ari-test",
       "extension": "3001",
       "identifier": "LTUPWZPM",
+      "name": "ari-test",
       "type": "application",
       "unavailable": true
     }
