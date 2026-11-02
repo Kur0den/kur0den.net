@@ -86,7 +86,7 @@
       "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
       "name": "MikaNeTEL",
       "prefix": "510",
-      "unavailable": true
+      "unavailable": false
     },
     {
       "identifier": "31e54b78-fdf0-4733-aa6c-60b5a92bb3c0",
