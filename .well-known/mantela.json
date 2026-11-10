@@ -93,7 +93,7 @@
       "mantela": "https://roiarise.github.io/mantela.json",
       "name": "roi-tel",
       "prefix": "732",
-      "unavailable": true
+      "unavailable": false
     }
   ],
   "version": "0.1.0"
