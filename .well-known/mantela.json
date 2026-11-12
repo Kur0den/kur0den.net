@@ -107,7 +107,7 @@
       "mantela": "https://nao700.github.io/KSPB-ICB-TEL/mantela.json",
       "name": "KSPD-ICB局",
       "prefix": "907",
-      "unavailable": true
+      "unavailable": false
     }
   ],
   "version": "0.1.0"
