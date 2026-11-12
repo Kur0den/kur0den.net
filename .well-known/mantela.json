@@ -78,7 +78,7 @@
     {
       "identifier": "5752ca4c-c828-4946-a8f3-7f8272206f2d",
       "mantela": "https://da-tenshi.github.io/mantela.json",
-      "name": "AmagasakiSHINANO",
+      "name": "SHINANOTEL",
       "prefix": "661"
     },
     {
@@ -94,6 +94,20 @@
       "name": "roi-tel",
       "prefix": "732",
       "unavailable": false
+    },
+    {
+      "identifier": "bf979778-1d1f-4a33-abac-8cbc2f3dae91",
+      "mantela": "https://hkshuttle.github.io/tkytel/mantela.json",
+      "name": "sola-tel",
+      "prefix": "944",
+      "unavailable": true
+    },
+    {
+      "identifier": "b6c6a038-2364-4fb5-a23f-3b3d2e70128c",
+      "mantela": "https://nao700.github.io/KSPB-ICB-TEL/mantela.json",
+      "name": "KSPD-ICB局",
+      "prefix": "907",
+      "unavailable": true
     }
   ],
   "version": "0.1.0"
